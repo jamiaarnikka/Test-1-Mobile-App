@@ -1,5 +1,6 @@
 {
-  "name": "JaminApp",
+  "name": "uApp",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {}
 }
