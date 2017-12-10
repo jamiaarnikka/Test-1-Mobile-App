@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- *I put tabroots to get this application working, If I had more time or would do this in other purpose than learning purpose, I would change Icons. Tabs.html is done too.
- 1601549@Aksel Kaya
+ *Jami Aarnikka 1701436.
  */
 
 @IonicPage()

@@ -1,3 +1,6 @@
+<!--
+  This is my menu.html page where I did the code for the menu bar. Jami Aarnikka 1701436.
+-->
 <ion-content class="white-bg">
     <div class="ios-black-screen-fix"></div>
 
@@ -18,10 +21,11 @@
         <button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">
           <ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>
           {{p.title}}
-  
         </button>
-        </ion-list>
+      </ion-list>
+      <button ion-button (click)="logout()" item-left>Log out</button>
     </ion-content>
     </ion-menu>
   
     <ion-nav [root]="rootPage" #content swipeBackEnabled="false"> </ion-nav>
+    

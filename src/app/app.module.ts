@@ -13,8 +13,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireModule } from 'angularfire2';
 import { FirebaseProvider } from './../providers/firebase/firebase';
 
- // Okay, I'm using my old labwork as template, so it has old firebase config, but it works, so i didn't make new one. For real CV I would.
-      // 1601549 Aksel Kaya
+ // My app module.ts Jami Arnikka 1701436
+      //
  
 const firebaseConfig = {
   apiKey: "AIzaSyAV8tt9LfglEw2B8xY0Z3t30FEkGNhTKhU",
